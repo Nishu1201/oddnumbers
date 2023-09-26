@@ -1,0 +1,23 @@
+package com.classwork;
+
+public class OddNumberSum {
+    public static void main(String[] args) {
+        int start = 7;
+        int end = 21;
+        int sum = 0;
+
+        for (int i = start; i <= end; i++) {
+            if (i % 2 != 0) { // Check if the number is odd
+                sum += i;
+            }
+        }
+
+        System.out.println("The sum of odd numbers from " + start + " to " + end + " is: " + sum);
+    }
+}
+
+
+
+Output:
+
+The sum of odd numbers from 7 to 21 is: 112
